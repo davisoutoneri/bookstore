@@ -1,0 +1,14 @@
+0000000000000000000000000000000000000000 876cb21c074b8a72b63f2f783200737375f74d79 davisoutoneri <davisouto.dev@gmail.com> 1663077815 -0300	commit (initial): initial commit
+876cb21c074b8a72b63f2f783200737375f74d79 1cd3d7dbee4d1b093f2ba8f704c6da36f14f5a47 davisoutoneri <davisouto.dev@gmail.com> 1663191019 -0300	commit: Angular material instalado no projeto
+1cd3d7dbee4d1b093f2ba8f704c6da36f14f5a47 b278b88491e1d0ecc88552ce5b36a9a2d718024d davisoutoneri <davisouto.dev@gmail.com> 1663199837 -0300	commit: Aula 25-27: Inicializando o projeto. Aula: 27-29: Desenvolvendo o Frot, Header e Footer
+b278b88491e1d0ecc88552ce5b36a9a2d718024d f440cbc40020f5a003c0916f53cedb3d99f15b34 davisoutoneri <davisouto.dev@gmail.com> 1663253438 -0300	commit: Aula 30: Implementando o componente NAV
+f440cbc40020f5a003c0916f53cedb3d99f15b34 e090ccececa31b78dca19808a0aedff5fd399a25 davisoutoneri <davisouto.dev@gmail.com> 1663262310 -0300	commit: Aula 31: Implementando componente Home e implementação do Routing para Home
+e090ccececa31b78dca19808a0aedff5fd399a25 9e031162f269f412f902398b5ad5955fdfbb956b davisoutoneri <davisouto.dev@gmail.com> 1663352392 -0300	commit: Aula 32-34: Implementando o componente Categoria-Read
+9e031162f269f412f902398b5ad5955fdfbb956b 4e422b7647494e40f6263395de96cde9d210fb06 davisoutoneri <davisouto.dev@gmail.com> 1663367392 -0300	commit: Aula 35-38: Implementação do Componente CATEGORIA-CREATE
+4e422b7647494e40f6263395de96cde9d210fb06 98a4222dba3282132e4f82cd8bae954c674f58e8 davisoutoneri <davisouto.dev@gmail.com> 1663373058 -0300	commit: Aula 39-41: Implementação do componente CATEGORIA-DELETE
+98a4222dba3282132e4f82cd8bae954c674f58e8 c4183e8468fa460ca52d3ca959fe6f56bc87c053 davisoutoneri <davisouto.dev@gmail.com> 1663598694 -0300	commit: Aula 42-44: Implementação do Componente CATEGORIA-UPDATE
+c4183e8468fa460ca52d3ca959fe6f56bc87c053 c6200305d8bba85bf56b77a86607340a47a45b61 davisoutoneri <davisouto.dev@gmail.com> 1663613065 -0300	commit: Aula 45 e 46: Implementação da leitura de todos os livros por categoria
+c6200305d8bba85bf56b77a86607340a47a45b61 60150a73cb36859799926c5b063db139366c2dda davisoutoneri <davisouto.dev@gmail.com> 1663702059 -0300	commit: Aula 47-49: Implementando o Componente LIVRO CREATE
+60150a73cb36859799926c5b063db139366c2dda d47f74ca28631eab922245112051e997dcfe5c5d davisoutoneri <davisouto.dev@gmail.com> 1663709579 -0300	commit: Aula 51-51: Implementação do Componente LIVRO UPDATE| Aula 51: Cancelar do componente Livro Create
+d47f74ca28631eab922245112051e997dcfe5c5d 45c55dbcf823f44fb88be8842406d1108192cecf davisoutoneri <davisouto.dev@gmail.com> 1663711212 -0300	commit: Aula 53: Implementação do Componente LIVRO DELETE
+45c55dbcf823f44fb88be8842406d1108192cecf b1a2b90023518bbd09818286ab6e9c5dd66f7e5a davisoutoneri <davisouto.dev@gmail.com> 1663714969 -0300	commit: Aula 54: Implementação do Componente LIVRO READ.| Finalização do curso!
