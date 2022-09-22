@@ -1,0 +1,134 @@
+[debug] [2022-09-21T23:11:14.517Z] ----------------------------------------------------------------------
+[debug] [2022-09-21T23:11:14.519Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\davis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-09-21T23:11:14.520Z] CLI Version:   11.9.0
+[debug] [2022-09-21T23:11:14.520Z] Platform:      win32
+[debug] [2022-09-21T23:11:14.520Z] Node Version:  v16.16.0
+[debug] [2022-09-21T23:11:14.521Z] Time:          Wed Sep 21 2022 20:11:14 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2022-09-21T23:11:14.521Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-21T23:11:14.602Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-21T23:11:14.603Z] > authorizing via signed-in user (davisouto.dev@gmail.com)
+[debug] [2022-09-21T23:11:14.603Z] [iam] checking project bookstore-front for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-09-21T23:11:14.606Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookstore-front:testIamPermissions [none]
+[debug] [2022-09-21T23:11:14.606Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookstore-front:testIamPermissions x-goog-quota-user=projects/bookstore-front
+[debug] [2022-09-21T23:11:14.606Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookstore-front:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-09-21T23:11:15.879Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookstore-front:testIamPermissions 200
+[debug] [2022-09-21T23:11:15.880Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookstore-front:testIamPermissions {}
+[debug] [2022-09-21T23:11:15.880Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project bookstore-front:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2022-09-21T23:11:15.881Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bookstore-front [none]
+[debug] [2022-09-21T23:11:17.138Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bookstore-front 403
+[debug] [2022-09-21T23:11:17.138Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bookstore-front {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-09-21T23:11:17.140Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-09-21T23:11:17.142Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\davis\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\davis\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project bookstore-front. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-09-21T23:20:21.881Z] ----------------------------------------------------------------------
+[debug] [2022-09-21T23:20:21.883Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\davis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-09-21T23:20:21.884Z] CLI Version:   11.9.0
+[debug] [2022-09-21T23:20:21.884Z] Platform:      win32
+[debug] [2022-09-21T23:20:21.884Z] Node Version:  v16.16.0
+[debug] [2022-09-21T23:20:21.885Z] Time:          Wed Sep 21 2022 20:20:21 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2022-09-21T23:20:21.886Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-21T23:20:21.969Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-21T23:20:21.969Z] > authorizing via signed-in user (davisouto.dev@gmail.com)
+[debug] [2022-09-21T23:20:21.969Z] [iam] checking project bookstore-front for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-09-21T23:20:21.972Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookstore-front:testIamPermissions [none]
+[debug] [2022-09-21T23:20:21.973Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookstore-front:testIamPermissions x-goog-quota-user=projects/bookstore-front
+[debug] [2022-09-21T23:20:21.973Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookstore-front:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-09-21T23:20:23.080Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookstore-front:testIamPermissions 200
+[debug] [2022-09-21T23:20:23.080Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/bookstore-front:testIamPermissions {}
+[debug] [2022-09-21T23:20:23.081Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project bookstore-front:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2022-09-21T23:20:23.082Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bookstore-front [none]
+[debug] [2022-09-21T23:20:24.318Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bookstore-front 403
+[debug] [2022-09-21T23:20:24.318Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bookstore-front {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-09-21T23:20:24.319Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-09-21T23:20:24.321Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\davis\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\davis\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project bookstore-front. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-09-21T23:20:46.258Z] ----------------------------------------------------------------------
+[debug] [2022-09-21T23:20:46.260Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\davis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2022-09-21T23:20:46.261Z] CLI Version:   11.9.0
+[debug] [2022-09-21T23:20:46.261Z] Platform:      win32
+[debug] [2022-09-21T23:20:46.262Z] Node Version:  v16.16.0
+[debug] [2022-09-21T23:20:46.263Z] Time:          Wed Sep 21 2022 20:20:46 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2022-09-21T23:20:46.263Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-21T23:20:46.340Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-21T23:20:46.341Z] > authorizing via signed-in user (davisouto.dev@gmail.com)
+[debug] [2022-09-21T23:20:46.345Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2022-09-21T23:20:46.982Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-09-21T23:20:46.982Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2022-09-21T23:20:51.776Z] TypeError: Cannot read properties of undefined (reading 'value')
+    at ListPrompt.getCurrentValue (C:\Users\davis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\inquirer\lib\prompts\list.js:153:53)
+    at C:\Users\davis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rxjs\dist\cjs\internal\operators\map.js:10:37
+    at OperatorSubscriber._this._next (C:\Users\davis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rxjs\dist\cjs\internal\operators\OperatorSubscriber.js:28:21)
+    at OperatorSubscriber.Subscriber.next (C:\Users\davis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rxjs\dist\cjs\internal\Subscriber.js:72:18)
+    at C:\Users\davis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rxjs\dist\cjs\internal\operators\take.js:15:32
+    at OperatorSubscriber._this._next (C:\Users\davis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rxjs\dist\cjs\internal\operators\OperatorSubscriber.js:28:21)
+    at OperatorSubscriber.Subscriber.next (C:\Users\davis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rxjs\dist\cjs\internal\Subscriber.js:72:18)
+    at Interface.handler (C:\Users\davis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\rxjs\dist\cjs\internal\observable\fromEvent.js:59:31)
+    at Interface.emit (node:events:539:35)
+    at Interface.emit (node:domain:475:12)
+    at Interface._onLine (node:readline:487:10)
+    at Interface._line (node:readline:864:8)
+    at Interface._ttyWrite (node:readline:1216:14)
+    at ReadStream.onkeypress (node:readline:288:10)
+    at ReadStream.emit (node:events:539:35)
+    at ReadStream.emit (node:domain:475:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-21T23:21:49.451Z] ----------------------------------------------------------------------
+[debug] [2022-09-21T23:21:49.454Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\davis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-09-21T23:21:49.454Z] CLI Version:   11.9.0
+[debug] [2022-09-21T23:21:49.455Z] Platform:      win32
+[debug] [2022-09-21T23:21:49.455Z] Node Version:  v16.16.0
+[debug] [2022-09-21T23:21:49.456Z] Time:          Wed Sep 21 2022 20:21:49 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2022-09-21T23:21:49.457Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-21T23:21:49.544Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-21T23:21:49.545Z] > authorizing via signed-in user (davisouto.dev@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2022-09-21T23:21:49.577Z] [hub] writing locator at C:\Users\davis\AppData\Local\Temp\hub-bookstore-front.json
+[debug] [2022-09-21T23:21:49.611Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/bookstore-front/sites 
+[debug] [2022-09-21T23:21:50.459Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/bookstore-front/sites 404
+[debug] [2022-09-21T23:21:50.460Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/bookstore-front/sites {"error":{"code":404,"message":"project `bookstore-front` doesn't exist","status":"NOT_FOUND"}}
+[debug] [2022-09-21T23:21:50.460Z] Failed to list hosting sites
+[debug] HTTP Error: 404, project `bookstore-front` doesn't exist
+[debug] [2022-09-21T23:21:50.461Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bookstore-front/webApps/-/config [none]
+[debug] [2022-09-21T23:21:51.734Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bookstore-front/webApps/-/config 403
+[debug] [2022-09-21T23:21:51.734Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bookstore-front/webApps/-/config {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-09-21T23:21:51.734Z] fetchWebSetup error: FirebaseError: HTTP Error: 403, The caller does not have permission
+[warn] !  hosting: Authentication error when trying to fetch your current web app configuration, have you run firebase login? 
+[warn] !  hosting: Could not fetch web app configuration and there is no cached configuration on this machine. Check your internet connection and make sure you are authenticated. To continue, you must call firebase.initializeApp({...}) in your code before using Firebase. 
+[info] i  hosting: Serving hosting files from: dist/bookstore-front {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mdist/bookstore-front\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-09-21T23:25:28.163Z] Received signal SIGHUP 1
